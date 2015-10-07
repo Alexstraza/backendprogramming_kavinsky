@@ -1,0 +1,91 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+
+h2 {
+    margin-top: 0;
+    }
+
+body {
+    margin: 0;
+   	background-color: #000c67;
+	color: #eeeeee;
+	font-family: 'Raleway', sans-serif;
+}
+
+header, footer {
+    background-color: darkred;
+	color: #eeeeee;
+	text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+    margin-left: 0;
+}
+
+a:hover, a:active {
+    background-color: darkred;
+}
+
+nav {
+    background-color: darkslateblue;
+}
+
+#contactKavinsky, #whoisKavinsky, #pageBar, #twitter, #content {
+    text-align: center;
+}
+
+#searchBar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#content {
+    margin-bottom: 80px;
+}
+
+.selected {
+    background-color: darkred;
+}
+
+article {
+    display: inline-block;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    text-align: center;
+}
+
+
+
+
+
+
+
