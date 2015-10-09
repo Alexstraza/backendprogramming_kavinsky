@@ -13,14 +13,15 @@ h2 {
 
 body {
     margin: 0;
-   	background-color: #000c67;
-	color: #eeeeee;
+   	background-color: #BFBDC1;
+	color: #000;
 	font-family: 'Raleway', sans-serif;
 }
 
+
 header, footer {
-    background-color: darkred;
-	color: #eeeeee;
+    background-color: #6D6A75;
+	color: #000;
 	text-align: center;
 }
 
@@ -43,16 +44,16 @@ li {
 
 a {
     text-decoration: none;
-    color: #eeeeee;
+    color: #000;
     margin-left: 0;
 }
 
 a:hover, a:active {
-    background-color: darkred;
+    background-color: #6D6A75;
 }
 
 nav {
-    background-color: darkslateblue;
+    background-color: #37323E;
 }
 
 #contactKavinsky, #whoisKavinsky, #pageBar, #twitter, #content {
@@ -69,7 +70,7 @@ nav {
 }
 
 .selected {
-    background-color: darkred;
+    background-color: #6D6A75;
 }
 
 article {

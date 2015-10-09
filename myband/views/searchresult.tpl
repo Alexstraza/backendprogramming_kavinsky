@@ -3,10 +3,10 @@
     {foreach from=$data item=newsitem}
         <article>
 
-            <p>{$newsitem.id} {$newsitem.title}</p>
+            <p>{$newsitem.title}</p>
             <content>{$newsitem.content}</content>
         </article>
     {/foreach}
 </section>
 <br>
-<a href="index.php?page=news">Press here to go back.</a>
+<a href="index.php?page=news">Click here to go back.</a>

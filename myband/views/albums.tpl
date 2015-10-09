@@ -24,8 +24,4 @@
     <h2>Outrun, 2013</h2>
 </article>
 
-<article>
-    <img src="http://cdncf.yes.fm/ai/v3/4722120b8daf9106251ab794f3853948/2467ba9df5980d9c6f5c068320b21b8a/Kavinsky-Odd-Look--Remixes-.jpg">
-    <h2>Odd Look, 2013</h2>
-</article>
 

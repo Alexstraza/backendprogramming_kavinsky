@@ -9,5 +9,6 @@
 $searchString; //user input from the search bar
 
 $sql = "SELECT * FROM newsarticles WHERE title LIKE '%$searchString%'";
+$sql = "SELECT * FROM newsarticles WHERE content LIKE '%$searchString%'";
 
 $searchResult = $mysqli->query($sql);

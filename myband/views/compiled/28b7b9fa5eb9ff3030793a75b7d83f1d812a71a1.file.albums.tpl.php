@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-10-07 14:25:40
+<?php /* Smarty version Smarty-3.1.18, created on 2015-10-08 22:35:30
          compiled from "views\albums.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:74045614ec97b57cf7-80118920%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '28b7b9fa5eb9ff3030793a75b7d83f1d812a71a1' => 
     array (
       0 => 'views\\albums.tpl',
-      1 => 1444214517,
+      1 => 1444336529,
       2 => 'file',
     ),
   ),
@@ -45,9 +45,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <h2>Outrun, 2013</h2>
 </article>
 
-<article>
-    <img src="http://cdncf.yes.fm/ai/v3/4722120b8daf9106251ab794f3853948/2467ba9df5980d9c6f5c068320b21b8a/Kavinsky-Odd-Look--Remixes-.jpg">
-    <h2>Odd Look, 2013</h2>
-</article>
 
 <?php }} ?>

@@ -9,6 +9,10 @@ require 'includes/bootstrap.php' ;
 // Maak de database connectie
 require_once 'includes/database.php' ;
 
+//load functions file so the shitty Ma-hosting can read this code
+//upgrade your damn PHP to PHP5 already you nimrods
+include 'model/functions.php';
+
 $action = isset($_GET['action']) ? $_GET['action'] : '';
 
 

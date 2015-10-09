@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-10-06 12:03:26
+<?php /* Smarty version Smarty-3.1.18, created on 2015-10-08 12:03:06
          compiled from "views\searchresult.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:26088560bb780650d89-31060572%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '464581a0b97064700ce76ada77efdc014a3ca149' => 
     array (
       0 => 'views\\searchresult.tpl',
-      1 => 1444125802,
+      1 => 1444298581,
       2 => 'file',
     ),
   ),
@@ -33,8 +33,7 @@ $_smarty_tpl->tpl_vars['newsitem']->_loop = true;
 ?>
         <article>
 
-            <p><?php echo $_smarty_tpl->tpl_vars['newsitem']->value['id'];?>
- <?php echo $_smarty_tpl->tpl_vars['newsitem']->value['title'];?>
+            <p><?php echo $_smarty_tpl->tpl_vars['newsitem']->value['title'];?>
 </p>
             <content><?php echo $_smarty_tpl->tpl_vars['newsitem']->value['content'];?>
 </content>

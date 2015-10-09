@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-10-07 14:27:42
+<?php /* Smarty version Smarty-3.1.18, created on 2015-10-08 23:03:29
          compiled from "views\newsarticles.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2938455ffc7c672b682-51292360%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd2104d91d134b1ddf013f0f614b9454791a8acef' => 
     array (
       0 => 'views\\newsarticles.tpl',
-      1 => 1444220855,
+      1 => 1444338207,
       2 => 'file',
     ),
   ),
@@ -24,10 +24,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_55ffc7c6a71ad8_14860037')) {function content_55ffc7c6a71ad8_14860037($_smarty_tpl) {?><div id="content">
+<?php if ($_valid && !is_callable('content_55ffc7c6a71ad8_14860037')) {function content_55ffc7c6a71ad8_14860037($_smarty_tpl) {?>
+    <div id="newsArticles">
 <?php echo $_smarty_tpl->getSubTemplate ("form.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-<?php echo $_smarty_tpl->getSubTemplate ("pagination.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 
 <section>
@@ -41,9 +41,16 @@ $_smarty_tpl->tpl_vars['newsitem']->_loop = true;
 		<h1><?php echo $_smarty_tpl->tpl_vars['newsitem']->value['title'];?>
 </h1>
 		<p><?php echo $_smarty_tpl->tpl_vars['newsitem']->value['date_created'];?>
-</p>
+</p><br>
 		<content><?php echo $_smarty_tpl->tpl_vars['newsitem']->value['content'];?>
-</content>
+</content><br>
+    <?php if ($_smarty_tpl->tpl_vars['newsitem']->value['image']) {?>
+        <img src="images/<?php echo $_smarty_tpl->tpl_vars['newsitem']->value['image'];?>
+">
+    <?php }?>
 
 <?php } ?>
-</section><?php }} ?>
+</section>
+    </div>
+    <?php echo $_smarty_tpl->getSubTemplate ("pagination.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php }} ?>
